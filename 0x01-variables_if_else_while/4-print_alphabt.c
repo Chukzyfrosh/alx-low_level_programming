@@ -7,12 +7,15 @@
  */
 int main(void)
 {
-	char la;
+	char c = 'a';
 
-	for (la = 'a'; la <= 'z'; la++)
+	while (c <= 'z')
 	{
-		if (la != 'o' && la != 'q')
-			putchar(la);
+		if (c != 'e' && c != 'q')
+		{
+			putchar(c);
+		}
+		c++;
 	}
 
 	putchar('\n');
