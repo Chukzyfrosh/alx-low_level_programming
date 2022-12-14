@@ -1,4 +1,4 @@
-#include "mani.h"
+#include "main.h"
 
 /**
  * add - add two numbers
